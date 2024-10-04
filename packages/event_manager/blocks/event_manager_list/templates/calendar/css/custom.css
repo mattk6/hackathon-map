@@ -1,0 +1,74 @@
+.fc-unthemed {
+    margin-top: 20px;
+}
+
+.fc-event {
+    color: black !important;
+    border-width: 1px;
+    border-radius: 0 !important;
+    border-left-width: 10px !important;
+    border-right-color: #AAA !important;
+    border-top-color: #AAA !important;
+    border-bottom-color: #AAA !important;
+    cursor: pointer;
+}
+
+.fc button {
+    height: auto !important;
+    outline: none !important;
+}
+
+.fc-right button {
+    margin-left: 4px !important;
+}
+
+.fc-left button {
+    margin-right: 4px !important;
+}
+
+.tooltipster-sidetip .tooltipster-box  a {
+
+    color: white !important;
+}
+
+
+.fc-mobile .fc-toolbar > div{
+    display: block;
+    float: none;
+    clear: both;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.fc-mobile .fc-toolbar > div * {
+    float: none;
+}
+
+h4.event-manager-popop-title {
+ font-size: 120%;
+}
+
+
+.event-manager-popop-hr {
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+
+.event-manager-popop-table {
+    width: 100%;
+}
+
+.event-manager-popop-table td {
+    vertical-align: top;
+    padding-bottom: 10px;
+}
+
+
+.event-manager-popop-table td:first-child {
+    width: 20px;
+}
+
+.event-manager-popop-table strong {
+    text-transform: uppercase;
+    font-size: 85%;
+}

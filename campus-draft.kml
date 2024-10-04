@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>KmlFile</name>
+    <Style id="west_campus_style">
+      <IconStyle>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png
+          </href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text>$[video]</text>
+      </BalloonStyle>
+    </Style>
+    <Placemark>
+      <name>Link Library</name>
+      <styleUrl>#west_campus_style</styleUrl>
+      <ExtendedData>
+        <Data name="video">
+          <value><![CDATA[<iframe width="480" height="360"
+            src="https://youtu.be/UGnHELCZDVY" frameborder="0"
+            allowfullscreen></iframe><br><br>]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates> -97.0906275068638,40.91497071008314,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Weller Hall</name>
+      <styleUrl>#west_campus_style</styleUrl>
+      <ExtendedData>
+        <Data name="video">
+          <value><![CDATA[<iframe width="480" height="360"
+            src="https://youtu.be/gHYTVv2ht6Q" frameborder="0"
+            allowfullscreen></iframe><br><br>]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-97.09084511354719,40.91431815124034,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Music Center</name>
+      <styleUrl>#west_campus_style</styleUrl>
+      <ExtendedData>
+        <Data name="video">
+          <value><![CDATA[<iframe width="480" height="360"
+            src="https://youtu.be/M1K3guHe9Gw" frameborder="0"
+            allowfullscreen></iframe><br><br>]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-97.08981094805047,40.91568618029605</coordinates>
+      </Point>
+    </Placemark>    
+  </Document>
+</kml>
+
